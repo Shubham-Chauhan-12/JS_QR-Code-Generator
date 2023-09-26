@@ -14,6 +14,12 @@ generateBtn.addEventListener('click',(e)=>{
 })
 
 
+sizes.addEventListener('change',(e)=>{
+    size = e.target.value;
+    qrCodeGenerate();
+})
+
+
 
 function qrCodeGenerate(){
 
