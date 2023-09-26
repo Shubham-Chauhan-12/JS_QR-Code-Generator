@@ -21,6 +21,12 @@ body{
     width: 400px;
 }
 
+.content{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
 .header h1{
     text-align: center;
     color: white;
