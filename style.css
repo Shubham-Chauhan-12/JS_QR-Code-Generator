@@ -38,6 +38,7 @@ body{
 
 .header h1{
     text-align: center;
+    text-decoration: underline;
     color: white;
     font-size: 25px;
     text-transform: capitalize;
