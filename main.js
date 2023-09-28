@@ -20,7 +20,7 @@ sizes.addEventListener('change',(e)=>{
 })
 
 
-
+// qr generate
 function qrCodeGenerate(){
 
     qrBody.innerHTML = "";
@@ -31,6 +31,7 @@ function qrCodeGenerate(){
         width:size,
         colorLight:"#ffffff",
         colorDark:"#000000",
+
 
     });
 }
