@@ -7,13 +7,13 @@ let size = sizes.value;
 
 const qrBody = document.querySelector('.content');
 
-
+// generate btn click 
 generateBtn.addEventListener('click',(e)=>{
     e.preventDefault();
     qrCodeGenerate();
 })
 
-
+// size change
 sizes.addEventListener('change',(e)=>{
     size = e.target.value;
     qrCodeGenerate();
