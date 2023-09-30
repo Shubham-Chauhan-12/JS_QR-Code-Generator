@@ -85,3 +85,17 @@ border: 2px ;
     font-weight: 600;
     border-radius: 5px;
 }
+
+
+@media screen and (max-width:520px){
+    
+    .container{
+        width: 80%;
+
+    }
+
+    .footer a{
+        padding: 10px;
+        font-size: 15px;
+    }
+}
