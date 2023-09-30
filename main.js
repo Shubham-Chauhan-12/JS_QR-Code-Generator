@@ -10,8 +10,19 @@ const qrBody = document.querySelector('.content');
 // generate btn click 
 generateBtn.addEventListener('click',(e)=>{
     e.preventDefault();
-    qrCodeGenerate();
+
+    
+    
 })
+
+// checking input empty
+function inputEmptyCheck(){
+    if(qrText.value.length > 0){
+        qrCodeGenerate();
+    }else{
+        alert("Enter Text / Url to generate QR code")
+    }
+}
 
 // size change
 sizes.addEventListener('change',(e)=>{
