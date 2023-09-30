@@ -47,3 +47,15 @@ function qrCodeGenerate(){
 
     });
 }
+
+// download button working
+downloadBtn.addEventListener('click',()=>{
+    let img = document.querySelector('.content img');
+
+    if(img !== null){
+        let imgAttr = img.getAttribute('src');
+        downloadBtn.setAttribute("href",imgAttr);
+    }else{
+        downloadBtn.setAttribute("href",`${document.querySelector('canvas').toDataURL()}`);
+    }
+})
